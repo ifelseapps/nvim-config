@@ -9,7 +9,8 @@ vim.api.nvim_set_keymap("n", "<C-9>", ":CommentToggle<CR>", opts)
 vim.api.nvim_set_keymap("v", "<C-9>", ":CommentToggle<CR>", opts)
 
 -- Nvim tree
-vim.api.nvim_set_keymap("n", "<C-e>", ":NvimTreeToggle<cr>", opts)
+vim.api.nvim_set_keymap("n", "<C-e>", ":NvimTreeToggle<CR>", opts)
+vim.api.nvim_set_keymap("n", "<C-r>", ":NvimTreeFindFile<CR>", opts)
 
 -- Split window
 vim.api.nvim_set_keymap("n", "<C-/>", ":vsplit<CR>", opts)
