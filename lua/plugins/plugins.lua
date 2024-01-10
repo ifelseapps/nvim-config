@@ -28,6 +28,7 @@ require("lazy").setup({
     tag = "0.1.5",
     dependencies = { "nvim-lua/plenary.nvim" },
   },
+  { "Slotos/telescope-lsp-handlers.nvim" },
   {
     "nvim-lualine/lualine.nvim",
     dependencies = { "nvim-tree/nvim-web-devicons" },
