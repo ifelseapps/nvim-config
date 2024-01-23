@@ -14,3 +14,5 @@ rm -rf ~/.local/share/nvim
 rm -rf ~/.local/state/nvim
 rm -rf ~/.cache/nvim
 ```
+
+Подробнее читайте на моем [сайте](https://maximpavlov.su/notes/2024/switching-to-vim/)
