@@ -6,6 +6,14 @@ lspconfig.tsserver.setup({
   capabilities = capabilities,
 })
 
+lspconfig.cssls.setup({
+  capabilities = capabilities,
+})
+
+lspconfig.cssmodules_ls.setup({
+  capabilities = capabilities,
+})
+
 lspconfig.phpactor.setup({
   capabilities = capabilities,
 })
