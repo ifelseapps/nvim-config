@@ -45,5 +45,6 @@ require("lazy").setup({
   },
   { "terrortylor/nvim-comment" },
   { "airblade/vim-gitgutter" },
-  { "Glench/Vim-Jinja2-Syntax" },
+  -- { "Glench/Vim-Jinja2-Syntax" },
+  { "lepture/vim-jinja" },
 })
